@@ -1,0 +1,70 @@
+{
+  "theme_archetype": "1 (Organic & Earthy) - Light Theme",
+  "project_context": {
+    "description": "Showcase website for the August 15th festival in Bramans, a traditional Alpine mountain village in Savoie, France. Features presentation, program, photo gallery, and volunteer form.",
+    "language": "French",
+    "vibe": "Festive, colorful, traditional, warm, Catholic heritage, alpine mountain conviviality."
+  },
+  "colors": {
+    "background_primary": "#FDFBF7",
+    "background_secondary": "#F3EFE7",
+    "text_primary": "#1E2A23",
+    "text_secondary": "#4A5D52",
+    "brand_primary": "#A4302F",
+    "brand_secondary": "#2C4C3B",
+    "accent": "#D4A373",
+    "surface": "#FFFFFF"
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Cormorant Garamond, serif",
+      "body": "Figtree, sans-serif"
+    },
+    "rules": {
+      "h1": "text-5xl md:text-6xl tracking-tighter text-brand_secondary font-bold",
+      "h2": "text-3xl md:text-5xl tracking-tight text-brand_secondary font-bold",
+      "body": "text-base md:text-lg leading-relaxed text-text_primary"
+    }
+  },
+  "layout_spacing": {
+    "general": "Generous padding (p-12 to p-24) to create a relaxed, premium traditional feel.",
+    "grid": "Use Mode A 'Tetris' grid for the gallery. Asymmetrical bento grid with col-span-4 and col-span-8 variations. Add gap-8."
+  },
+  "components": {
+    "forms": "Use Shadcn customized for a warmer look. Remove sharp technical borders, use rounded-xl and earthy border colors.",
+    "buttons": "rounded-full bg-[#A4302F] text-white hover:bg-[#8B2625] transition-transform hover:-translate-y-0.5",
+    "icons": "Use @phosphor-icons/react for warm, elegant duotone or light line icons."
+  },
+  "media": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1729010733988-637a20cc5e37?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxhbHBpbmUlMjBtb3VudGFpbiUyMHZpbGxhZ2UlMjBzdW1tZXJ8ZW58MHx8fHwxNzgyMTYzNjc1fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Hero background: Scenic Alpine town"
+    },
+    "presentation": {
+      "url": "https://images.unsplash.com/photo-1631179234473-f48fedffed9a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxydXN0aWMlMjB2aWxsYWdlJTIwZmVzdGl2YWwlMjBvdXRkb29yfGVufDB8fHx8MTc4MjE2MzY3NXww&ixlib=rb-4.1.0&q=85",
+      "description": "Presentation section: Rustic village festival outdoor"
+    },
+    "program_food": {
+      "url": "https://images.pexels.com/photos/8350659/pexels-photo-8350659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Program section (Repas): Traditional food and wine outdoor"
+    },
+    "program_fireworks": {
+      "url": "https://images.unsplash.com/photo-1514876246314-d9a231ea21db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGZpcmV3b3JrcyUyMG5pZ2h0fGVufDB8fHx8MTc4MjE2MzY3NXww&ixlib=rb-4.1.0&q=85",
+      "description": "Program section (Feu d'artifice): Mountain fireworks"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1594069758873-e79e9075eb7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHxhbHBpbmUlMjBtb3VudGFpbiUyMHZpbGxhZ2UlMjBzdW1tZXJ8ZW58MHx8fHwxNzgyMTYzNjc1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1562066229-db055c0bc8c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxydXN0aWMlMjB2aWxsYWdlJTIwZmVzdGl2YWwlMjBvdXRkb29yfGVufDB8fHx8MTc4MjE2MzY3NXww&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/27355656/pexels-photo-27355656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.unsplash.com/photo-1558858534-45db5c111047?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMGZpcmV3b3JrcyUyMG5pZ2h0fGVufDB8fHx8MTc4MjE2MzY3NXww&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "critical_rules": [
+    "The entire website must be strictly in French.",
+    "Add 'data-testid' attributes to all interactive and key informational elements.",
+    "Ensure contrast ratios are accessible, particularly over images.",
+    "Include google fonts 'Cormorant Garamond' and 'Figtree' in index.html.",
+    "Use standard JS, no TSX."
+  ]
+}
+
